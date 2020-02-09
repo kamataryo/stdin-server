@@ -15,5 +15,7 @@
   "dependencies": {
     "meow": "^6.0.0",
     "open": "^7.0.2"
-  }
+  },
+  "repository": "git@github.com:kamataryo/stdin-server.git",
+  "author": "kamataryo <mugil.cephalus+github@gmail.com>"
 }
