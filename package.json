@@ -1,0 +1,19 @@
+{
+  "name": "stdin-server",
+  "description": "A CLI to run a server from STDIN.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "bin": "cli.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "node server.test.js"
+  },
+  "devDependencies": {
+    "axios": "^0.19.2"
+  },
+  "dependencies": {
+    "meow": "^6.0.0",
+    "open": "^7.0.2"
+  }
+}
