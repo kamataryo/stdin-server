@@ -43,7 +43,7 @@ const onEnd = () => {
       }
     }
   );
-  console.log(cli.flags);
+
   try {
     server(data, cli.flags, message => process.stdout.write(message));
   } catch (e) {
